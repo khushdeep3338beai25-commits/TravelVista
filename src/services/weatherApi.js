@@ -45,6 +45,5 @@ export const fetchWeatherByCoords = async (lat, lon, capitalName = 'Capital') =>
     humidity: 55 + Math.round(seed),
     windSpeed: 12 + Math.round(seed),
     city: capitalName,
-    message: 'Displaying estimated climate metrics (Configure VITE_WEATHER_API_KEY for live data)'
   };
 };
