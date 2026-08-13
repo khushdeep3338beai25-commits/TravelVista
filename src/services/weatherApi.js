@@ -6,8 +6,7 @@ export const fetchWeatherByCoords = async (lat, lon, capitalName = 'Capital') =>
   if (WEATHER_API_KEY) {
     try {
       const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${0e524c6093e06095dd96701daaec24af
-}`,
+        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${WEATHER_API_KEY}`,
         { timeout: 5000 }
       );
       const data = response.data;
