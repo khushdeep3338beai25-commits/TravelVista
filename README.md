@@ -12,28 +12,7 @@
    - Platform statistics, customer reviews, and newsletter subscription.
 
 
-4. **Wishlist / Favorites (`/favorites`)**:
-   - Save & remove destinations with LocalStorage persistence.
-   - Interactive heart button feedback with toast notifications.
-   - Clean empty state illustration.
-
-5. **Travel Planner (`/planner`)**:
-   - Create custom multi-day trips with destination, start/end dates, traveler count, and notes.
-   - Add/remove activities per day (Day 1, Day 2, etc.) in a structured itinerary.
-   - Persistent storage in LocalStorage.
-
-6. **Destination Comparison (`/compare`)**:
-   - Compare up to 3 countries side-by-side in a detailed structured table.
-   - Compare flag, capital, region, population, currencies, languages, timezones, and border counts.
-
-7. **Google Gemini AI Travel Assistant (`/ai-assistant`)**:
-   - Interactive prompt interface for customized trip itineraries.
-   - Powered by Google Gemini API (`VITE_GEMINI_API_KEY`).
-   - Smart offline fallback generator providing day-by-day plans, food recommendations, travel tips, and budget estimates when no key is set.
-
-8. **Currency Converter (`/currency`)**:
-   - Real-time foreign exchange rates for over 50 currencies (`open.er-api.com`).
-   - Instant amount calculation and currency swap button.
+4.
 
 9. **About & Contact (`/about`, `/contact`)**:
    - Comprehensive company background, mission & vision, developer spotlight, and tech stack overview.
