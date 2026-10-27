@@ -1,137 +1,32 @@
 # TravelVista – Explore the World 🌍✈️
 
+**TravelVista** is a modern, feature-rich travel and tourism web application built with **React.js, Vite, and Bootstrap 5**. It helps users discover destinations worldwide, explore country information, check weather and currency rates, view interactive maps, save favorite destinations, compare countries, and plan personalized trips.
 
----
+With an AI-powered travel assistant using Google Gemini, custom itinerary planning, a responsive interface, and dark/light mode, TravelVista brings essential travel planning tools together in one platform.
 
-## 🛠️ Tech Stack
+### ✨ Key Features
+- 🌎 Explore destinations with real-time search, filters, and sorting.
+- 🗺️ View interactive maps and detailed country information.
+- 🌦️ Check weather information and 💱 convert currencies.
+- ❤️ Save favorite destinations and compare up to three countries.
+- 🗓️ Create personalized, multi-day travel itineraries.
+- 🤖 Generate AI-powered travel plans with Google Gemini.
+- 🌙 Switch between dark and light themes.
+- 📱 Enjoy a responsive, user-friendly interface.
 
-- **Core**: React.js 18, Vite
-- **UI & Styling**: Bootstrap 5, Bootstrap Icons, Vanilla CSS3 Custom Properties
-- **Routing**: React Router DOM (v6+)
-- **HTTP Client**: Axios
-- **Maps**: Leaflet, React Leaflet
-- **AI Integration**: Google Generative AI (`@google/generative-ai`)
-- **State Management**: React Context API & Custom Hooks
-- **Storage**: LocalStorage
+### 🛠️ Tech Stack
+React.js 18 · Vite · Bootstrap 5 · JavaScript · React Router · Axios · Leaflet · REST Countries API · Google Gemini API
 
----
-
-
-## 🔑 Environment Variables (`.env`)
-
-Copy `.env.example` to `.env` in the project root:
-
-```env
-# OpenWeatherMap API Key (Optional)
-VITE_WEATHER_API_KEY=your_openweathermap_api_key
-
-# Google Gemini API Key (Optional)
-VITE_GEMINI_API_KEY=your_gemini_api_key
-
-# Exchange Rate API Key (Optional - open.er-api.com is free without key)
-VITE_CURRENCY_API_KEY=
-```
-
-> **Note**: The app runs completely without any API keys out of the box using built-in graceful fallbacks!
-
----
-
-## 🚀 How to Run Locally
-
-1. **Unzip** `TravelVista-React-Travel-Website.zip` and open the folder in **VS Code**.
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
-4. Open the displayed local URL in your browser (e.g. `http://localhost:5173`).
-
----
-
-## 📦 Building for Production
-
-To compile and verify the production bundle:
-
+### 🚀 Getting Started
 ```bash
-npm run build
+npm install
+npm run dev
 ```
 
-Preview the production build locally:
+### 🌐 Explore TravelVista
+**Live Demo:** https://travel-vista-travelguide.vercel.app
 
-```bash
-npm run preview
-```
+### ⭐ Support the Project
+Enjoy using TravelVista? **Visit the GitHub repository, give it a ⭐ star, and share it with fellow travel enthusiasts!** Contributions and suggestions are always welcome.
 
----
-
-## 📁 Project Structure
-
-```
-travelvista/
-├── .env.example
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── index.css
-    ├── components/
-    │   ├── Navbar.jsx
-    │   ├── Footer.jsx
-    │   ├── Hero.jsx
-    │   ├── DestinationCard.jsx
-    │   ├── SearchBar.jsx
-    │   ├── FilterBar.jsx
-    │   ├── LoadingSpinner.jsx
-    │   ├── SkeletonCard.jsx
-    │   ├── WeatherCard.jsx
-    │   ├── MapComponent.jsx
-    │   ├── ReviewCard.jsx
-    │   ├── FavoriteButton.jsx
-    │   ├── Pagination.jsx
-    │   ├── Toast.jsx
-    │   ├── ThemeToggle.jsx
-    │   ├── AITravelAssistant.jsx
-    │   └── CurrencyConverter.jsx
-    ├── context/
-    │   ├── ThemeContext.jsx
-    │   ├── FavoritesContext.jsx
-    │   ├── CompareContext.jsx
-    │   ├── PlannerContext.jsx
-    │   └── ToastContext.jsx
-    ├── pages/
-    │   ├── Home.jsx
-    │   ├── Destinations.jsx
-    │   ├── DestinationDetails.jsx
-    │   ├── Favorites.jsx
-    │   ├── Planner.jsx
-    │   ├── Compare.jsx
-    │   ├── AIAssistantPage.jsx
-    │   ├── CurrencyPage.jsx
-    │   ├── About.jsx
-    │   ├── Contact.jsx
-    │   └── NotFound.jsx
-    ├── services/
-    │   ├── countriesApi.js
-    │   ├── weatherApi.js
-    │   ├── exchangeApi.js
-    │   └── geminiApi.js
-    ├── utils/
-    │   ├── formatters.js
-    │   └── mockData.js
-    └── hooks/
-        └── useLocalStorage.js
-```
-
----
-
-## 👨‍💻 Author & License
-
-Developed with ❤️ for global travel enthusiasts. Distributed under the MIT License.
-# TravelVista
+*Built with ❤️ to make discovering the world and planning your next adventure easier.*
