@@ -14,20 +14,6 @@ is a modern, commercial-grade Travel & Tourism web application built with  -> **
    - Travel Type category cards (Beaches, Mountains, Adventure, Historical, Nature, Cities, Food & Culture, Islands).
    - Platform statistics, customer reviews, and newsletter subscription.
 
-2. **Destinations Explorer (`/destinations`)**:
-   - Dynamic data fetching from **REST Countries API**.
-   - Real-time search across Country Name, Official Name, Capital, Region, Currency, and Languages.
-   - Region filtering (All, Africa, Americas, Asia, Europe, Oceania).
-   - Sorting options: Alphabetical (A-Z, Z-A) and Population (High-Low, Low-High).
-   - Animated skeleton loading states, error handling with retry buttons, empty state handling, and pagination.
-
-3. **Destination Details (`/destination/:countryCode`)**:
-   - Full flag banner, official names, capital, region, subregion, population, currencies, languages, timezones, and lat/lon coordinates.
-   - **Interactive Map**: OpenStreetMap tile layer with Leaflet marker.
-   - **Weather Widget**: Live OpenWeatherMap data or estimated climate metrics fallback.
-   - **Neighboring Border Countries**: Clickable border cards with cross-navigation.
-   - **Travel Tips & Information**: Best time to visit, top attractions, cultural insights, and essential travel tips.
-   - Direct action buttons: Save to Wishlist, Add to Compare, and Create Trip Itinerary.
 
 4. **Wishlist / Favorites (`/favorites`)**:
    - Save & remove destinations with LocalStorage persistence.
