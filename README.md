@@ -1,32 +1,6 @@
 # TravelVista – Explore the World 🌍✈️
 
 
-
-## 🌟 Key Features
-
-1. **Home Landing Page (`/`)**:
-   - Visually striking hero section with search integration.
-   - Popular & Trending Destinations showcase.
-   - Continental breakdown (Europe, Asia, Americas, Africa, Oceania).
-   - Travel Type category cards (Beaches, Mountains, Adventure, Historical, Nature, Cities, Food & Culture, Islands).
-   - Platform statistics, customer reviews, and newsletter subscription.
-
-
-4.
-
-9. **About & Contact (`/about`, `/contact`)**:
-   - Comprehensive company background, mission & vision, developer spotlight, and tech stack overview.
-   - Contact form with client-side validation, Toast alert feedback, FAQ accordion, and headquarters office map.
-
-10. **Dark / Light Theme Switcher**:
-    - Full application theme toggle synced with Bootstrap 5 `data-bs-theme` and LocalStorage persistence.
-
-11. **Toast Notifications**:
-    - Global non-intrusive alert toasts for user actions.
-
-12. **Custom 404 Page (`*`)**:
-    - Custom error page ("Wandered off the map") with quick navigation.
-
 ---
 
 ## 🛠️ Tech Stack
