@@ -80,15 +80,6 @@ is a modern, commercial-grade Travel & Tourism web application built with  -> **
 
 ---
 
-## 🌐 Public APIs Used
-
-1. **REST Countries API**: `https://restcountries.com/v3.1/` (Primary Data Source)
-2. **OpenStreetMap**: Leaflet map tiles
-3. **OpenWeatherMap API**: `https://api.openweathermap.org/` (Optional - with fallback)
-4. **Exchange Rate API**: `https://open.er-api.com/v6/latest/` (Live currency conversion)
-5. **Google Gemini API**: `https://generativelanguage.googleapis.com/` (Optional AI Assistant - with fallback)
-
----
 
 ## 🔑 Environment Variables (`.env`)
 
