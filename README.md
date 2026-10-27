@@ -1,9 +1,6 @@
 # TravelVista – Explore the World 🌍✈️
 
-**TravelVista** 
-is a modern, commercial-grade Travel & Tourism web application built with  -> **React.js + Vite + Bootstrap 5**. It enables users to explore global countries and destinations, search & filter regions, inspect detailed country demographics, check live/estimated climate metrics, view interactive OpenStreetMap locations, manage a wishlist, compare up to 3 countries side-by-side, plan custom day-by-day travel itineraries, and generate smart AI itineraries using Google Gemini.
 
----
 
 ## 🌟 Key Features
 
