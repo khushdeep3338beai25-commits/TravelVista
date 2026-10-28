@@ -26,7 +26,4 @@ npm run dev
 ### 🌐 Explore TravelVista
 **Live Demo:** https://travel-vista-travelguide.vercel.app
 
-### ⭐ Support the Project
-Enjoy using TravelVista? **Visit the GitHub repository, give it a ⭐ star, and share it with fellow travel enthusiasts!** Contributions and suggestions are always welcome.
-
 *Built with ❤️ to make discovering the world and planning your next adventure easier.*
